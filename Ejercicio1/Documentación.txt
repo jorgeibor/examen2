@@ -1,0 +1,12 @@
+Ejercicio 1 Solo admite Repartos
+
+En la línea 207 de index.php
+
+if(substr($envio['title'], "Reparto"))
+
+Ejercicio 1 Cambiar el formato
+
+En las líneas 95 y 103
+
+$comienzo->setDateTime("$fecha[2]/$fecha[1]/$fecha[0]T09:00:00.000");
+$final->setDateTime("$fecha[2]/$fecha[1]/$fecha[0]T20:00:00.000");
